@@ -52,7 +52,7 @@ def imagePreprocess(img):
     return img
 
 
-img = cv2.imread('Resources/number.jpeg')
+img = cv2.imread('Images/number.jpeg')
 img = cv2.resize(img, (imgWidth, imgHeight))
 imgContour = img.copy()
 processedImage = imagePreprocess(img)
